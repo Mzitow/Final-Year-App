@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/notification_menu"
+        android:icon="@drawable/notifications_24dp"
+        android:title="Notifications"/>
+
+    <item
+        android:id="@+id/my_dashboad_menu"
+        android:icon="@drawable/dashboard"
+        android:title="My DashBoard"/>
+
+    <item
+        android:id="@+id/all_lectures_menu"
+        android:icon="@drawable/books"
+        android:title="All Lectures"/>
+
+    <item
+        android:id="@+id/all_sheikhs_menu"
+        android:icon="@drawable/halaqa"
+        android:title="All Sheikhs"/>
+
+    <item
+        android:id="@+id/settings_menu"
+        android:icon="@drawable/settings_24dp"
+        android:title="Settings"/>
+
+
+    <item
+        android:id="@+id/ask_fatwa_menu"
+        android:icon="@drawable/fatwa_24dp"
+        android:title="Ask About"/>
+
+        <item
+            android:id="@+id/card_menu"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Menu in Cards view"/>
+    </group>
+
+</menu>
